@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 import "./App.css";
 import Grpmembers from "./group2members";
 import GroupMembersList from "./GroupMembersList";
@@ -25,6 +25,23 @@ function App() {
         <img src={imageTwo} className="img" alt="group image two" />
       </div>
     </>
+  );
+}
+
+export default App;*/
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+ import TodoList from './Todolist'
+function App() {
+    
+  return (
+    <>
+    <div className='App'>
+      <TodoList/>
+   </div>
+  </>
   );
 }
 
