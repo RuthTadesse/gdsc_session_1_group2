@@ -1,85 +1,30 @@
-/* .App {
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.product-detail {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cart {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2rem;
-}
-
-html {
-  font-size: 62.5%;
-  align-content: center;
-}
-
-.ttform {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-input {
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  border-radius: 10px;
-  min-height: 20px;
-  height: 3rem;
-  border: none;
-}
-
-button {
-  width: fit-content;
-  height: fit-content;
-}
-
-textarea {
-  resize: none;
-  margin: 2rem;
-  border-radius: 10px;
-}
-
-main {
-  background-color: bisque;
+  justify-content: space-between;
 }
